@@ -6,8 +6,8 @@
 
 
 body > header{
-    background-color:rgb(34, 151, 247);
-    color:rgb(91, 82, 49)
+    background-color:rgb(0, 0, 0);
+    color:rgb(241, 235, 235)
 }
 
 header .container{
@@ -19,10 +19,13 @@ header .container{
 
 header li{
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 header li a{
-    color: rgb(11, 63, 232);
+    color: rgb(109, 138, 230);
+    text-decoration: none;
 }
 
 .container{
@@ -37,24 +40,26 @@ header li a{
 }
 
 .articles article img{
-    height: 180px;
+    /* height: 180px; */
+    width: 100%;
 }
 
 .articles article{
     width: 30%;
- }
+}
 
- section{
+section{
     padding: 16px 0 16px 0;
- }
+}
 
- section h2{
+section h2{
     margin-bottom: 8px;
 }
 
 section h2,
 .articles article{
     margin-bottom: 16px;
+    font-size: 24px;
 }
 
 .articles article h3{
@@ -62,9 +67,46 @@ section h2,
 }
 
 .articles article a{
-    background-color:rgb(175, 227, 241);
+    background-color:rgb(140, 209, 254);
     text-decoration: none;
     padding: 6px;
     color: #508fd3;
     display: inline-block;
+    font-weight:600;
 }
+
+.articles article a:hover{
+    text-decoration: underline;
+    background-color:rgb(179, 223, 238);
+}
+
+
+.articles article a,
+.articles article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#esportes{
+    background-color: rgb(255, 255, 255);
+}
+
+#esportes .articles article{
+    background-color: rgb(255, 255, 255);
+}
+
+#economia{
+    background-color:rgb(255, 255, 255);
+}
+
+#economia .articles article{
+    background-color:rgb(255, 255, 255);
+}
+
+#vida-animal{
+    background-color: rgb(255, 255, 255);
+}
+
+#vida-animal .articles article{
+    background-color: rgb(255, 255, 255);
+}
+
